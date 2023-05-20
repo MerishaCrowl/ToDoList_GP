@@ -1,0 +1,109 @@
+body {
+	font-family:'Coming Soon', cursive;
+	margin: 0;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: normal;
+	justify-content: start;
+	min-height: 95vh;
+	background-image: url(/Assets/Images/notepad.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 400px;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: -360px;
+  }
+  
+  #todo-container {
+	margin-top: 45px;
+	width: 100%;
+	max-width: 800px;
+	display: contents;
+  	flex-direction: initial;
+  	align-items: center;
+	font-size: 20px;
+	
+  }
+  
+  #todo-input {
+	width: 100%;
+	max-width: 600px;
+	padding: 10px;
+	font-size: 16px;
+	display: inline;
+	position: relative;
+	margin-left: 620px;
+  }
+  
+  #add-btn {
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-radius: 50%;
+	background-color: #47135f;
+	color: white;
+	border: none;
+	cursor: pointer;
+
+  }
+  
+  #todo-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .todo-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #f2f2f2;
+	margin-bottom: 10px;
+	border-radius: 4px;
+  }
+
+  #todo-list {
+	margin-top: 30px;
+  }
+  
+  .todo-item span {
+	flex-grow: 1;
+	margin-right: 10px;
+  }
+  
+  .todo-item button {
+	margin-left: 10px;
+	font-size: 14px;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+  .todo-text {
+	font-size: 20px;
+  }
+  
+  .completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+  }
+
+  .delete-btn {
+	background-color: red;
+	size: 20px;
+  }
+
+  li {
+	text-align: center;
+	line-height: 1.32;
+  }
+
+.complete-btn {
+size: 20px;
+}
+  
